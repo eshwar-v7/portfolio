@@ -1,0 +1,161 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    background: #0d0f12;
+    color: #fff;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    position: sticky;
+    top: 0;
+    background: #0d0f12;
+    z-index: 10;
+}
+
+nav .logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #4da3ff;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #4da3ff;
+}
+
+/* Hero Section */
+.hero {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero h1 span {
+    color: #4da3ff;
+}
+
+.hero p {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #bbb;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 25px;
+    background: #4da3ff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+
+}
+
+.btn:hover {
+    background: #1d82e2;
+}
+
+/* Section Title */
+.section-title {
+    text-align: center;
+    margin: 60px 0 20px 0;
+    font-size: 32px;
+}
+
+/* Skills */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.skill-card {
+    background: #1a1d22;
+    padding: 15px 25px;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: 18px;
+    border: 1px solid #2b3036;
+    transition: 0.3s;
+}
+
+.skill-card:hover {
+    border-color: #4da3ff;
+}
+
+/* Projects */
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-card {
+    width: 280px;
+    background: #1a1d22;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    border: 1px solid #2b3036;
+    transition: 0.3s;
+}
+
+.project-card h3 {
+    margin-bottom: 10px;
+}
+
+.project-card:hover {
+    border-color: #4da3ff;
+}
+
+/* Contact */
+#contact {
+    text-align: center;
+    padding: 30px;
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #111317;
+    margin-top: 40px;
+    color: #777;
+}
